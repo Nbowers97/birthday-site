@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    background:#4D4D4D;
+    color: lightgrey;
+    font-size: 20px;
+    background-image: url("images/batman-logo");
+    background-size: 75px;
+    
+
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 2px 2px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #FFEE32;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #FFEE32;
+    padding: 5px 35px;
+    border-radius: 50%;
+    margin: 5px 0 10px 0;
+
+}
+
+#bday-date {
+    margin: 0;
+    background: #FFEE32;
+    padding: 5px 35px;
+    border-radius: 50%;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+
+}
+
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #FFEE32;
+    border-radius: 10px;
+    background-image: url("https://www.vectorkhazana.com/assets/images/products/Batman_logo.png");
+    background-size: cover;
+    background-color: #202020;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media2.giphy.com/media/kwcRp24Wz4lZm/giphy.gif?cid=790b7611eb5e7507f1441d137229dae4b83d331e09353e1d&rid=giphy.gif&ct=g");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media0.giphy.com/media/JBN6hII6XhuWk/giphy.gif?cid=ecf05e47a5o3rfib656ipxtl39vdyyumbuuw7bauunixuhq3&rid=giphy.gif&ct=g");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media0.giphy.com/media/7NMG9vPM5kTpC/giphy.gif?cid=790b7611aa20879e3d62d58ff64b30e5555f62c91bd464e8&rid=giphy.gif&ct=g");
+    
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media3.giphy.com/media/108QDeRLo4w5uE/giphy.gif?cid=790b7611344935642c2ecc398399c30cebcc76b45cf76325&rid=giphy.gif&ct=g");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media1.giphy.com/media/BoOJji44URePm/giphy.gif?cid=790b76111a9228b3440263634a14e8829aae26ec8e54d21a&rid=giphy.gif&ct=g");
+}
+
+
+#gift-img-thumbs:hover {
+    background-image: url("https://media2.giphy.com/media/dVdNRFjd6PlrZ4yOwp/giphy.gif?cid=790b7611e12381795d3a7f78a07d425fa0ee02c2504c143f&rid=giphy.gif&ct=g");
+
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
